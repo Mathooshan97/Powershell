@@ -1,6 +1,7 @@
 # Set the source and destination paths
-$sourcePath = "/Users/mathooshanthayaparan/Documents”
-$destinationPath = "/Users/mathooshanthayaparan/Desktop/Class_Work"
+# provide appropriate file paths below
+$sourcePath = "Location”
+$destinationPath = "Location"
 
 # Get the PDF and DOCX files from the source directory
 $pdfFiles = Get-ChildItem -Path $sourcePath -Filter "*.pdf"
