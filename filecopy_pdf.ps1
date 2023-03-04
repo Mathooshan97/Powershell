@@ -15,6 +15,5 @@ foreach ($docxFile in $docxFiles) {
     $destinationFilePath = Join-Path -Path $destinationPath -ChildPath $docxFile.Name
     Copy-Item -Path $docxFile.FullName -Destination $destinationFilePath -Force
 }
-
 # Output a message indicating that the copy operation is complete
 Write-Output "PDF and DOCX files copied to $destinationPath"
